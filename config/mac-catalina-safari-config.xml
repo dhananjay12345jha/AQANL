@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Primary">
+    <test name="windows_10_chrome">
+        <parameter name="config" value="browserstack.conf.json"/>
+        <parameter name="environment" value="mac_catalina_safari"/>
+        <classes>
+            <class name="com.auto.RunnerIT"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Primary" time-out="12600000" parallel="methods" thread-count="1">
+    <test name="ios_14_safari">
+        <parameter name="config" value="browserstack.conf.json"/>
+        <parameter name="environment" value="samsung_galaxy_s10"/>
+        <classes>
+            <class name="com.auto.RunnerIT"/>
+        </classes>
+    </test>
+</suite>

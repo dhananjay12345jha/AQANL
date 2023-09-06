@@ -1,0 +1,27 @@
+{
+  "capabilities": {
+    "build": "local",
+    "name": "local_test"
+  },
+  "configuration": {
+    "mode": "chrome"
+  },
+  "environments": {
+    "chrome": {
+      "browser": "chrome",
+      "deviceType": "desktop"
+    },
+    "firefox": {
+      "browser": "firefox",
+      "deviceType": "desktop"
+    },
+    "ie": {
+      "browser": "ie",
+      "deviceType": "desktop"
+    },
+    "edge": {
+      "browser": "edge",
+      "deviceType": "desktop"
+    }
+  }
+}

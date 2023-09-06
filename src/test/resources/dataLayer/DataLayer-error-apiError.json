@@ -1,0 +1,6 @@
+{
+	"event": "error",
+	"error_message": "API CALL ERROR: Timeout .*",
+	"error_description": "Status: undefined: API CALL ERROR",
+	"error_type": "Api"
+}

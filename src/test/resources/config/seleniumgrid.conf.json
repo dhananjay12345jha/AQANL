@@ -1,0 +1,27 @@
+{
+  "capabilities": {
+    "build": "seleniumgrid",
+    "name": "seleniumgrid_tests"
+  },
+  "configuration": {
+    "mode": "SELENIUMGRID"
+  },
+  "environments": {
+    "chrome": {
+      "browser": "chrome",
+      "browserVersion": "80.0",
+      "deviceType": "desktop"
+    },
+    "firefox": {
+      "browser": "firefox",
+      "browserVersion": "ANY",
+      "screenResolution": "1920x1080",
+      "deviceType": "desktop"
+    },
+    "ie": {
+      "browser": "ie",
+      "browserVersion": "ANY",
+      "deviceType": "desktop"
+    }
+  }
+}

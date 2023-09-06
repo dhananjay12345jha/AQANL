@@ -1,0 +1,15 @@
+{
+  "capabilities": {
+    "build": "headless",
+    "name": "headless_test"
+  },
+  "configuration": {
+    "mode": "chromeheadless"
+  },
+  "environments": {
+    "chrome": {
+      "browser": "chrome",
+      "deviceType": "desktop"
+    }
+  }
+}

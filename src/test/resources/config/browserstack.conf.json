@@ -1,0 +1,81 @@
+{
+  "capabilities": {
+    "project": "SF UI"
+  },
+  "configuration": {
+    "BROWSERSTACK_USERNAME": "wtcnewlookauto1",
+    "BROWSERSTACK_ACCESS_KEY": "qq17uAyWKauUpVCYPNKW",
+    "mode": "BROWSERSTACK"
+  },
+  "environments": {
+    "windows_10_chrome": {
+      "deviceType": "desktop",
+      "browser": "chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "resolution": "1920x1080",
+      "os_version": 10,
+      "browserstack.local": "false",
+      "test.name": "SF UI windows 10 chrome",
+      "name": "SF UI windows 10 chrome",
+      "build": "SF UI windows 10 chrome",
+      "browserstack.selenium_version": "4.0.0-beta-3"
+    },
+    "mac_catalina_safari": {
+      "deviceType": "desktop",
+      "browser": "Safari",
+      "os": "OS X",
+      "resolution": "1920x1080",
+      "os_version": "Catalina",
+      "browser_version": "13.0",
+      "browserstack.local": "false",
+      "test.name": "SF UI Mac OSX Catalina",
+      "name": "SF UI Mac OSX Catalina",
+      "browserstack.selenium_version": "4.0.0-beta-3"
+    },
+    "ios_14_safari": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "os": "IOS",
+      "phoneOnly": true,
+      "os_version": 14,
+      "deviceName": "iPhone 11",
+      "real_mobile": "true",
+      "browserstack.local": "false",
+      "browserstack.preventCrossSiteTracking": false,
+      "test.name": "Test: IOS 14 safari",
+      "appiumVersion": "1.17.0",
+      "browserstack.selenium_version": "4.0.0-beta-3"
+    },
+    "ipad_14_safari": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "os": "IOS",
+      "phoneOnly": true,
+      "os_version": 14,
+      "deviceName": "iPad Pro 12.9 2021",
+      "real_mobile": "true",
+      "browserstack.local": "false",
+      "browserstack.preventCrossSiteTracking": false,
+      "test.name": "Test: IPAD safari",
+      "appiumVersion": "1.17.0",
+      "browserstack.selenium_version": "4.0.0-beta-3"
+    },
+    "samsung_galaxy_s10": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "Samsung",
+      "os": "android",
+      "phoneOnly": true,
+      "os_version": "9.0",
+      "real_mobile": "true",
+      "browserstack.local": "false",
+      "device": "Samsung Galaxy S10",
+      "test.name": "Test: Galaxy S10",
+      "appiumVersion": "1.17.0",
+      "browserstack.selenium_version": "4.0.0-beta-3"
+    }
+  }
+}

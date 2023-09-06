@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Max grid concurrency reached",
+    "messageRegex": ".*All parallel tests are currently in use, including the queued tests.*",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "Ignored tests",
+    "messageRegex": ".*ignored.*",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "To Investigate",
+    "traceRegex": ".*AssertionError.*",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ]
+  },
+  {
+    "name": "Investigate",
+    "traceRege": "*IllegalMonitorStateException*",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ]
+  },
+  {
+    "name": "To investigate",
+    "traceRegex": ".*NoSuchElementException:.*",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*UndeclaredThrowableException.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*java.util.NoSuchElementException.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*StaleElementReferenceException:.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "capabilities": {
+    "testobject_api_key": "7F3731D414C444A4A8D739D6E60C78AE",
+    "testobject_suite_name": "Saucelab tests",
+    "testobject_app_id": 1,
+    "w3c": false,
+    "idleTimeout": 300,
+    "newCommandTimeout": 300
+  },
+  "configuration": {
+    "mode": "SAUCELABS",
+    "SAUCE_USERNAME": "skumar719",
+    "SAUCE_ACCESS_KEY": "950eb969-25f8-4fbb-aa4c-fb2ee0d1716b"
+  },
+  "environments": {
+    "osx_catalina_chrome": {
+      "deviceType": "desktop",
+      "browser": "chrome",
+      "platform": "macOS 10.15",
+      "screenResolution": "1920x1440",
+      "name": "Test: SF UI macOS Catalina Chrome",
+      "seleniumVersion": "3.4.0"
+    },
+    "osx_catalina_safari_13": {
+      "deviceType": "desktop",
+      "browser": "safari",
+      "platform": "macOS 10.15",
+      "screenResolution": "1920x1440",
+      "name": "Test: SF UI macOS Catalina Safari",
+      "seleniumVersion": "3.4.0"
+    },
+    "windows_10_chrome_tunnel": {
+      "tunnelIdentifier": "TheTunnel",
+      "deviceType": "desktop",
+      "browser": "chrome",
+      "platform": "windows 10",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 10 chrome via tunnel",
+      "seleniumVersion": "3.141.59"
+    },
+    "windows_10_chrome": {
+      "deviceType": "desktop",
+      "browser": "chrome",
+      "version": 80,
+      "platform": "windows 10",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 10 chrome",
+      "seleniumVersion": "3.141.59",
+      "extendedDebugging": true
+    },
+    "windows_10_firefox": {
+      "deviceType": "desktop",
+      "browser": "firefox",
+      "platform": "windows 10",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 10 firefox",
+      "seleniumVersion": "3.141.59"
+    },
+    "windows_10_edge": {
+      "deviceType": "desktop",
+      "browser": "MicrosoftEdge",
+      "platform": "windows 10",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 10 edge",
+      "seleniumVersion": "3.141.59"
+    },
+    "windows_10_ie_11": {
+      "deviceType": "desktop",
+      "browser": "internet explorer",
+      "version": 11,
+      "platform": "windows 10",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 10 ie 11",
+      "seleniumVersion": "3.141.59"
+    },
+    "windows_7_chrome": {
+      "deviceType": "desktop",
+      "browser": "chrome",
+      "version": 80,
+      "platform": "windows 7",
+      "screenResolution": "1920x1080",
+      "name": "Test: SF UI windows 7 chrome",
+      "seleniumVersion": "3.141.59"
+    },
+    "android_11_chrome": {
+      "deviceType": "mobile",
+      "browser": "chrome",
+      "phoneOnly": true,
+      "platformName": "Android",
+      "platformVersion": 11,
+      "automationName": "UiAutomator2",
+      "deviceName": ".*",
+      "name": "Test: SF chrome android 11",
+      "appiumVersion": "1.18.1"
+    },
+    "android_10_chrome": {
+      "deviceType": "mobile",
+      "browser": "chrome",
+      "phoneOnly": true,
+      "platformName": "Android",
+      "platformVersion": 10,
+      "automationName": "UiAutomator2",
+      "deviceName": ".*",
+      "name": "Test: SF chrome android 10",
+      "appiumVersion": "1.17.0"
+    },
+    "android_9_chrome": {
+      "deviceType": "mobile",
+      "browser": "chrome",
+      "phoneOnly": true,
+      "platformName": "Android",
+      "platformVersion": 9,
+      "automationName": "UiAutomator2",
+      "deviceName": ".*",
+      "name": "Test: SF chrome android 9",
+      "appiumVersion": "1.17.0"
+    },
+    "android_8_chrome": {
+      "deviceType": "mobile",
+      "browser": "chrome",
+      "phoneOnly": true,
+      "platformName": "Android",
+      "platformVersion": 8,
+      "automationName": "UiAutomator2",
+      "deviceName": ".*",
+      "name": "Test: SF chrome android 8",
+      "appiumVersion": "1.17.0"
+    },
+    "ios_12_safari": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "platformName": "IOS",
+      "phoneOnly": true,
+      "platformVersion": 12,
+      "deviceName": "iPhone.*",
+      "name": "Test: SF iOS 12 safari",
+      "appiumVersion": "1.17.0"
+    },
+    "ios_13_chrome": {
+      "deviceType": "mobile",
+      "browser": "chrome",
+      "platformName": "IOS",
+      "platformVersion": 13,
+      "automationName": "XCUITest",
+      "name": "Test: SF iOS 13 chrome",
+      "appiumVersion": "1.17.0"
+    },
+    "ios_13_safari": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "platformName": "IOS",
+      "phoneOnly": true,
+      "platformVersion": 13,
+      "deviceName": "iPhone.*",
+      "name": "Test: SF iOS 13 safari",
+      "appiumVersion": "1.17.0"
+    },
+    "ios_14_safari": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "platformName": "IOS",
+      "phoneOnly": true,
+      "platformVersion": 14,
+      "deviceName": "iPhone.*",
+      "name": "Test: SF iOS 14 safari",
+      "appiumVersion": "1.17.0"
+    },
+    "ios_13_safari_ipad": {
+      "deviceType": "mobile",
+      "automationName": "XCUITest",
+      "browser": "safari",
+      "platformName": "IOS",
+      "phoneOnly": false,
+      "platformVersion": 13,
+      "deviceName": "iPad.*",
+      "name": "Test: SF iOS 13 safari iPad",
+      "appiumVersion": "1.17.0"
+    }
+  }
+}

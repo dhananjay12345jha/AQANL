@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" time-out="5400000" parallel="methods" thread-count="1">
+    <test name="HeadlessChromeTest">
+        <parameter name="config" value="headless.conf.json"/>
+        <parameter name="environment" value="chrome"/>
+        <classes>
+            <class name="com.auto.RunnerIT"/>
+        </classes>
+    </test>
+</suite>

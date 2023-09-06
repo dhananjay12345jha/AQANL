@@ -1,0 +1,20 @@
+{
+	"global": {
+		"channel": "web",
+		"environment": "cicd",
+		"language": "en",
+		"country": "GB",
+		"site": "uk",
+		"currency": "GBP"
+	},
+	"page": {
+		"breadcrumbs": "$dynamic",
+		"title": "$dynamic"
+	},
+	"user": {
+		"login_status": "Logged In",
+		"user_id": "",
+		"user_agent": "$dynamic",
+		"sha256_email": "f2d5c00a01416b5f3ad7cd51bd42677c"
+	}
+}
